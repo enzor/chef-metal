@@ -10,7 +10,7 @@ gemspec
 #gem 'chef-metal-vagrant', :path => '../chef-metal-vagrant'
 #gem 'chef-metal-fog', :path => '../chef-metal-fog'
 #gem 'chef-zero', :path => '../chef-zero'
-#gem 'pry'
+gem 'pry'
 group :development do
   gem "berkshelf", github: "berkshelf/berkshelf"
 end

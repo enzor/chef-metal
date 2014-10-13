@@ -15,6 +15,7 @@ Date       | Blog
 
 Documentation
 -------------
+* [Frequently Asked Questions](https://github.com/opscode/chef-metal/blog/master/docs/faq.md)
 * [Configuration](https://github.com/opscode/chef-metal/blob/master/docs/configuration.md#configuring-and-using-metal-drivers)
 * [Writing Drivers](https://github.com/opscode/chef-metal/blob/master/docs/building_drivers.md#writing-drivers)
 * [Embedding](https://github.com/opscode/chef-metal/blob/master/docs/embedding.md)
@@ -24,8 +25,6 @@ Try It Out
 ----------
 
 You can try out Metal in many different flavors.
-
-HINT: chef-metal looks prettiest with chef 11.14 alpha.  `gem install chef --pre` to get it.
 
 ### Vagrant
 
@@ -126,7 +125,7 @@ Drivers each have their own repository.  Current drivers:
 
 **Containers:**
 - [LXC](https://github.com/opscode/chef-metal-lxc) (not yet up to date with 0.11)
-- [Docker](https://github.com/opscode/chef-metal-docker) (not yet up to date with 0.11)
+- [Docker](https://github.com/opscode/chef-metal-docker)
 
 **Bare Metal:**
 - [SSH (no PXE)](https://github.com/double-z/chef-metal-ssh) (not yet up to date with 0.11)
