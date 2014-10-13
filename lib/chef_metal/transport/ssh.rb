@@ -172,7 +172,7 @@ module ChefMetal
       end
 
       def escape(string)
-        "\"#{string.gsub("\"", "`\"")}\""
+        string
       end
 
       protected
