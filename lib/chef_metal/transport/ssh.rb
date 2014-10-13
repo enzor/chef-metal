@@ -171,6 +171,10 @@ module ChefMetal
         false
       end
 
+      def escape(string)
+        "\"#{string.gsub("\"", "`\"")}\""
+      end
+
       protected
 
       def session
